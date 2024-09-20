@@ -1,25 +1,15 @@
-<p align="center" width="100%">
-    <img height="100" src="https://github.com/said7388/developer-portfolio/assets/77630868/c0064908-cd5f-4751-a77c-eba90a62b55c">
-</p>
 
----
-# [Built Portfolio With GitHub ]
+![image](https://github.com/user-attachments/assets/50ba6df3-1f2d-4c7c-a9a2-150fb202335d)
+![image](https://github.com/user-attachments/assets/95583d15-9acb-4d2e-bb8f-06de52f8e780)
+![image](https://github.com/user-attachments/assets/a7c3c16b-6d8f-42cc-9a9c-bba9a8b2c602)
+![image](https://github.com/user-attachments/assets/7e290e47-16d2-4365-a014-8fef34cb8e7d)
+![image](https://github.com/user-attachments/assets/a59b09fb-6dac-4ef4-8479-6ecfb61dfd4a)
+![image](https://github.com/user-attachments/assets/c73beebd-7917-46fa-b5da-422cf185ed31)
+![image](https://github.com/user-attachments/assets/01e15f0e-cffe-4f78-b844-6edf2a11f5f6)
+![image](https://github.com/user-attachments/assets/38794185-62c0-4bfd-826b-ed8eab280755)
+![image](https://github.com/user-attachments/assets/3006032b-77e5-4c9f-af78-e557759269ab)
 
----
 
-# Developer Portfolio
-
-### Are you struggling to create a professional portfolio website? Look no further! You can use the Developer Portfolio template and create your very own personalized portfolio today! My website is designed to be user-friendly and easily customizable, making it perfect for both developers and freelancers.
-
----
-
-# Demo :movie_camera:
-
-![](./public/image/screen.png)
-
-## View live preview [here](https://abusaid.netlify.app/).
-
----
 
 ## Table of Contents :scroll:
 
@@ -34,13 +24,12 @@
 
 # Sections :bookmark:
 
-- HERO SECTION
+- SECTION
 - ABOUT ME
 - EXPERIENCE
 - SKILLS
 - PROJECTS
 - EDUCATION
-- BLOG
 - CONTACTS
 
 ---
@@ -61,27 +50,6 @@ git --version
 
 ## <br />
 
-# Getting Started :dart:
-
-### Fork and Clone the repo
-
-To Fork the repo click on the fork button at the top right of the page. Once the repo is forked open your terminal and perform the following commands
-
-```
-git clone https://github.com/<YOUR GITHUB USERNAME>/developer-portfolio.git
-
-cd developer-portfolio
-```
-
-### Install packages from the root directory
-
-```bash
-npm install
-# or
-yarn install
-```
-
-Then, run the development server:
 
 ```bash
 npm run dev
@@ -91,53 +59,7 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
----
 
-# Usage :joystick:
-
-Goto [emailjs.com](https://www.emailjs.com/) and create a new account for the mail sending. In free trial you will get 200 mail per month. After setup `emailjs` account, Please create a new `.env` file from `.env.example` file.
-
-Eg:
-
-```env
-NEXT_PUBLIC_EMAILJS_SERVICE_ID =
-NEXT_PUBLIC_EMAILJS_TEMPLATE_ID =
-NEXT_PUBLIC_EMAILJS_PUBLIC_KEY =
-NEXT_PUBLIC_GTM = # For site analytics
-NEXT_PUBLIC_APP_URL = "http://127.0.0.1:3000"
-NEXT_PUBLIC_RECAPTCHA_SECRET_KEY = # For captcha verification on contact form
-NEXT_PUBLIC_RECAPTCHA_SITE_KEY =
-```
-
-### Then, Customize data in the `utils/data` [folder](https://github.com/said7388/developer-portfolio/tree/main/utils/data).
-
-Eg:
-
-```javascript
-export const personalData = {
-  name: "ABU SAID",
-  profile: "/profile.png",
-  designation: "Full-Stack Software Developer",
-  description: "My name is ABU SAID....",
-  email: "abusaid7388@gmail.com",
-  phone: "+8801608797655",
-  address: "Dhaka, Bangladesh",
-  github: "https://github.com/said7388",
-  facebook: "https://www.facebook.com/abusaid.riyaz/",
-  linkedIn: "https://www.linkedin.com/in/abu-said-bd/",
-  twitter: "https://twitter.com/said7388",
-  stackOverflow: "https://stackoverflow.com/users/16840768/abu-said",
-  leetcode: "https://leetcode.com/said3812/",
-  devUsername: "said7388",
-  resume: "...",
-};
-```
-
-`devUsername` Used for fetching blog from `dev.to`.
-
----
-
----
 
 # Packages Used :package:
 
